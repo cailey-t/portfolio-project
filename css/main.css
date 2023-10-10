@@ -94,8 +94,6 @@ GENERAL STYLES
 body{
   font-family: 'Lora', serif;
   font-size: 16px;
-  color: #282c26;
-  background-image: url('../img/canva-background.png');
 }
 
 .content-wrapper{
@@ -112,10 +110,6 @@ h1{
   font-size: 45px;
   margin-bottom:0;
   width: 100%;
-}
-
-h2{
-  color: white;
 }
 
 span{
@@ -146,7 +140,6 @@ header .content-wrapper{
 }
 
 header i{
-  color:#282c26;
   font-size: 30px;
 }
 
@@ -158,7 +151,6 @@ header nav{
   width: 100%;
   border-top: 2px solid #3B4A3F;
   border-bottom: 2px solid #3B4A3F;
-  background-color: #78184A;
 }
 
 header ul{
@@ -176,13 +168,11 @@ header ul li{
 
 a{
   text-decoration: none;
-  color: white;
   font-weight: 500;
 }
 
 i{
   font-size: 70px;
-  color:#C98169;
   margin: 15px;
 }
 
@@ -200,7 +190,6 @@ section{
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color:#3C4139;
 }
 
 .section-content{
@@ -235,7 +224,6 @@ section{
   width: 80%;
   margin: 30px;
   padding: 28px;
-  background: #3C4139;
   border-radius: 35px;
 }
 
@@ -243,7 +231,6 @@ section{
   text-align: center;
   margin: 0;
   font-size: 30px;
-  color: white;
 }
 
 .content-wrapper.key-words{
@@ -251,7 +238,6 @@ section{
   justify-content: center;
   width: 100%;
   font-size: 30px;
-  color: #C4CACB;
   margin-bottom: 20px;
 }
 
@@ -264,9 +250,6 @@ section{
   width: 90%;
 }
 
-.key-word{
-  color: #E8CAC0;
-}
 
 /* ABOUT SECTION
 =====================================================*/
@@ -281,7 +264,6 @@ section{
   text-align: center;
   margin: 0;
   line-height: 30px;
-  background-color: #E8CAC0;
 }
 
 .introduction span{
@@ -308,16 +290,12 @@ section{
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color:#C98169;
   border-radius: 10px;
   width: 100px;
   height: 100px;
   margin-top: 20px;
 }
 
-.skills-icon i{
-  color:white;
-}
 
 .skills-other{
   display: flex;
@@ -372,8 +350,6 @@ section{
 
 button{
   width: 48%;
-  background-color:#C98169;
-  color: white;
   border: none;
   border-radius: 8px;
   padding: 5px;
@@ -385,7 +361,6 @@ FOOTER
 =====================================================*/
 
 footer{
-  background-color:#3C4139;
   padding-bottom:30px;
 }
 
@@ -402,7 +377,6 @@ footer{
 }
 
 .contact-items p{
-  color:white;
   font-size: 20px;
   margin-top: 0;
 }
