@@ -15,6 +15,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="img/favicon.png">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -36,107 +37,99 @@
   <!--Header -->
   <header>
     <div class="content-wrapper">
-      <h1>Cailey Tobin.</h1>
-      <i class="fa-solid fa-code"></i>
+      <div class="logo-image-wrap">
+        <img class="logo-image" src="img/logo-full-dark.png">
+      </div>
+
       <div class="nav-content">
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="border"></div>
+        <div class="nav-items">
+          <nav>
+            <ul>
+              <li><a class="skills-li" href="#skills">Skills</a></li>
+              <li><a class="projects-li" href="#projects">Projects</a></li>
+              <li><a class="about-li" href="#about">About</a></li>
+              <li><a class="contact-li" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="border"></div>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="hero-area">
+    <section>
       <div class="content-wrapper hero">
-        <p>Hi, there! I am a <br><span>{ front-end developer }</span><br> who builds websites that are beautiful and...
-        </p>
-        <div class="content-wrapper key-words">
-          <div>
-            <div><span class="key-word">[place-holder.]</span></div>
-            <!--
-            Turn [user-friendly, responsive, interactive, and accessible] into something that rotates through the words, displaying one at a time
-            <div><span class="key-word">user-friendly.</span></div>
-            <div><span class="key-word">responsive.</span></div>
-            <div><span class="key-word">interactive.</span></div>
-            <div><span class="key-word">accessible.</span></div>
-            -->
-          </div>
-        </div>
-        <div class="hero-image-wrapper">
-          <img class="hero-image" src="img/caileytobin.PNG" alt="Cailey Tobin">
-        </div>
-      </div>
-    </section>
-
-    <!--About Me-->
-    <section class="about">
-      <div class="content-wrapper">
-        <div class="section-header">
-          <h2>About Me.</h2>
-        </div>
-        <div class="section-content">
-          <div class="about-background">
-            <div class="about-paragraphs">
-              <p class="introduction">Hi! I'm Cailey and I am a <span>front-end developer</span> based in Austin, TX. </p>
-
-              <p>I have always loved solving puzzles and creating things since I was a child (I was the kid in middle
-                school who taught myself how to customize my MySpace profile through coding). My first formal
-                introduction to coding was when I was in college, where I ultimately received a BS degree in Pure
-                Mathematics. However, I found myself on a different path, where I have built up years of customer
-                service experience in the restaurant industry.
-              </p>
-
-              <p>Now I have reignited my passion for technology and web development; coding challenges me to think in
-                new ways, both creatively and logically, while also pushing me to constantly learn new things.
-                Ultimately, I hope to join a team where I can contribute my passion for building efficient,
-                user-friendly websites, to make the web a little brighter together.
-              </p>
-
-              <p>When I am not coding, I can be found daydreaming about my next travel adventure, practicing yoga, or
-                getting lost in the rabbit hole of books and video games.
-              </p>
+        <div class="content-wrapper hero-text">
+          <p>Hi, there! My name is Cailey, and I am a <span>{front-end developer}</span> who builds websites that are
+            beautiful and...
+          </p>
+          <div class="content-wrapper key-words">
+            <div>
+              <div><span class="key-word">[place-holder.]</span></div>
+              <!--
+              Turn [user-friendly, responsive, interactive, and accessible] into something that rotates through the words, displaying one at a time
+              <div><span class="key-word">user-friendly.</span></div>
+              <div><span class="key-word">responsive.</span></div>
+              <div><span class="key-word">interactive.</span></div>
+              <div><span class="key-word">accessible.</span></div>
+              -->
             </div>
-
           </div>
         </div>
       </div>
     </section>
-
 
     <!--Skills and Tools-->
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="content-wrapper">
         <div class="section-header">
           <h2>Skills & Tools</h2>
         </div>
+
         <div class="section-content">
           <div class="skills-icons">
             <!--Add icons for each-->
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-js"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-git-alt"></i>
-            <i class="fa-brands fa-github"></i>
+            <div class="skills-icon"><i class="fa-brands fa-html5"></i></div>
+            <div class="skills-icon"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="skills-icon"><i class="fa-brands fa-js"></i></div>
+            <div class="skills-icon"><i class="fa-brands fa-react"></i></div>
+            <div class="skills-icon"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="skills-icon"><i class="fa-brands fa-github"></i></div>
           </div>
           <div class="skills-other">
             <ul>
-              <div class="list-item"><li>Visual Studio Code</li></div>
-              <div class="list-item"><li>Code Sandbox</li></div>
-              <div class="list-item"><li>Chrome Developer Tools</li></div>
-              <div class="list-item"><li>Version Control</li></div>
-              <div class="list-item"><li>Flexbox</li></div>
-              <div class="list-item"><li>Media Queries</li></div>
-              <div class="list-item"><li>ES6</li></div>
-              <div class="list-item"><li>JSX</li></div>
-              <div class="list-item"><li>APIs</li></div>
-              <div class="list-item"><li>Managing Data Flow</li></div>
+              <div class="list-item">
+                <li>Visual Studio Code</li>
+              </div>
+              <div class="list-item">
+                <li>Code Sandbox</li>
+              </div>
+              <div class="list-item">
+                <li>Chrome Developer Tools</li>
+              </div>
+              <div class="list-item">
+                <li>Version Control</li>
+              </div>
+              <div class="list-item">
+                <li>Flexbox</li>
+              </div>
+              <div class="list-item">
+                <li>Media Queries</li>
+              </div>
+              <div class="list-item">
+                <li>ES6</li>
+              </div>
+              <div class="list-item">
+                <li>JSX</li>
+              </div>
+              <div class="list-item">
+                <li>APIs</li>
+              </div>
+              <div class="list-item">
+                <li>Managing Data Flow</li>
+              </div>
             </ul>
           </div>
         </div>
@@ -144,53 +137,88 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="content-wrapper">
         <div class="section-header">
           <h2>Projects</h2>
         </div>
-          <div class="project-items">
+
+        <div class="project-items">
+          <div class="project-header">
             <h3>Unplugged</h3>
-            <!--Image Here-->
+          </div>
+          <div class="image-container">
+            <img class="project-image" src="img/unplugged.png" alt="Unplugged Website">
+          </div>
+          <div class="project-details">
             <p>A 3-page responsive website from a design comp that adapts to mobile, tablet, and desktop screens.</p>
             <p><strong>Skills:</strong> CSS3, Flexbox, HTML5, Media Queries, Responsive Typography</p>
             <p><strong>Tools:</strong> GitHub, Visual Studio Code, Chrome DevTools</p>
             <div class="project-buttons">
-              <button>Live Page</button>
-              <button>GitHub Page</button>
+              <button class="lp-button"><a class="lp-link" href="https://cailey-t.github.io/unplugged-project/"
+                  target="_blank" rel="noreferrer noopener">Live Page</a></button>
+              <button class="gp-button"><a class="gp-link" href="https://github.com/cailey-t/unplugged-project"
+                  target="_blank" rel="noreferrer noopener">GitHub Page</a></button>
             </div>
           </div>
-          <div class="project-items">
+        </div>
+
+        <div class="project-items">
+          <div class="project-header">
             <h3>Guess The Word Game</h3>
-            <!--Image Here-->
+          </div>
+          <div class="image-container">
+            <img class="project-image" src="img/guess-the-word.png" alt="Guess The Word Game website">
+          </div>
+          <div class="project-details">
             <p>An interactive game where players guess the word by entering one letter at a time. If the player guesses
               all
-              the letters correctly before they use up their allotted guesses, they win! Win or lose, the player can play
+              the letters correctly before they use up their allotted guesses, they win! Win or lose, the player can
+              play
               as
               many times as they want.</p>
             <p><strong>Skills:</strong> Vanilla JavaScript, Manipulate the DOM</p>
             <p><strong>Tools:</strong> GitHub, JSON</p>
             <div class="project-buttons">
-              <button>Live Page</button>
-              <button>GitHub Page</button>
+              <button class="lp-button"><a class="lp-link" href="https://cailey-t.github.io/guess-the-word-game/"
+                  target="_blank" rel="noreferrer noopener">Live Page</a></button>
+              <button class="gp-button"><a class="gp-link" href="https://github.com/cailey-t/guess-the-word-game"
+                  target="_blank" rel="noreferrer noopener">GitHub Page</a></button>
             </div>
           </div>
-          <div class="project-items">
+        </div>
+
+        <div class="project-items">
+          <div class="project-header">
             <h3>GitHub Repo Gallery</h3>
-            <!--Image Here-->
-            <p>Pulls data from my own GitHub portfolio to create a gallery of repos. Visitors can search repos, and click
+          </div>
+          <div class="image-container">
+            <img class="project-image" src="img/github-repo-gallery.png" alt="GitHub Repo Gallery website">
+          </div>
+          <div class="project-details">
+            <p>Pulls data from my own GitHub portfolio to create a gallery of repos. Visitors can search repos, and
+              click
               on
               a repo to see more details.</p>
             <p><strong>Skills:</strong> JavaScript, APIs, Manipulate the DOM</p>
             <p><strong>Tools:</strong> GitHub, REST API</p>
             <div class="project-buttons">
-              <button>Live Page</button>
-              <button>GitHub Page</button>
+              <button class="lp-button"><a class="lp-link" href="https://cailey-t.github.io/git-repo-gallery/"
+                  target="_blank" rel="noreferrer noopener">Live Page</a></button>
+              <button class="gp-button"><a class="gp-link" href="https://github.com/cailey-t/git-repo-gallery"
+                  target="_blank" rel="noreferrer noopener">GitHub Page</a></button>
             </div>
           </div>
-          <div class="project-items">
+        </div>
+
+        <div class="project-items">
+          <div class="project-header">
             <h3>Sticky Note App</h3>
-            <!--Image Here-->
+          </div>
+          <div class="image-container">
+            <img class="project-image" src="img/super-sticky-notes.png" alt="Super Sticky Notes App">
+          </div>
+          <div class="project-details">
             <p>An interactive app that will let users create “sticky notes” on their computer to keep track of to-do
               items.
               Users are able to add, delete, and search notes. Users notes will be saved between closing and opening the
@@ -198,24 +226,90 @@
             <p><strong>Skills:</strong> ES6, JSX, Managing data flow, Manipulate the DOM, Local Storage</p>
             <p><strong>Tools:</strong> CodeSandbox</p>
             <div class="project-buttons">
-              <button>Live Page</button>
-              <button>GitHub Page</button>
+              <button class="lp-button"><a class="lp-link" href="" target="_blank" rel="noreferrer noopener">Live
+                  Page</a></button>
+              <button class="gp-button"><a class="gp-link" href="" target="_blank" rel="noreferrer noopener">GitHub
+                  Page</a></button>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About Me-->
+    <section class="about" id="about">
+      <div class="content-wrapper">
+        <div class="section-header">
+          <h2>About</h2>
+        </div>
+
+        <div class="section-content">
+          <div class="about-key">
+            <img class="my-photo" src="img/caileytobin.PNG" alt="Cailey Tobin">
+            <div class="intro-p">
+              <p class="introduction">Hi! I'm Cailey and I am a <span>front-end developer</span> based in Austin, TX.
+              </p>
+            </div>
+          </div>
+          <div class="about-paragraphs">
+
+            <p>I have always loved solving puzzles and creating things since I was a child (I was the kid in middle
+              school who taught myself how to customize my MySpace profile through coding). My first formal
+              introduction to coding was when I was in college, where I ultimately received a BS degree in Pure
+              Mathematics. However, I found myself on a different path, where I have built up years of customer
+              service experience in the restaurant industry.
+            </p>
+
+            <p>Now I have reignited my passion for technology and web development; coding challenges me to think in
+              new ways, both creatively and logically, while also pushing me to constantly learn new things.
+              Ultimately, I hope to join a team where I can contribute my passion for building efficient,
+              user-friendly websites, to make the web a little brighter together.
+            </p>
+
+            <p>When I am not coding, I can be found daydreaming about my next travel adventure, practicing yoga, or
+              getting lost in the rabbit hole of books and video games.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
+
   <footer>
-    <div class="content-wrapper">
-      <h3>Contact</h3>
-      <!---
-    Email
-    LinkedIn
-    GitHub
-    CodeSandbox
-  -->
+
+    <div class="content-wrapper" id="contact">
+      <div class="section-header">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-items">
+        <div class="email">
+          <i class="fa-solid fa-envelope email"></i>
+          <p><span>caileytobin@gmail.com</span></p>
+        </div>
+        <div class="social">
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/cailey-tobin-490128292/" target="_blank" rel="noreferrer noopener"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/cailey-t" target="_blank" rel="noreferrer noopener"><i
+                class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border"></div>
+
+      <div class="copyright">
+        <div class="logo-wrap">
+          <img class="logo" src="img/logo.png">
+        </div>
+        <p class="copyright-text">Cailey Tobin | 2023</p>
+      </div>
     </div>
+
   </footer>
 
 
